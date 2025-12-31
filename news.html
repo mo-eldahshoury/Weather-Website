@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+    <title>Weather Global News</title>
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
+    <link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700|" rel="stylesheet" type="text/css">
+    <link href="CSS/all.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <div class="site-content">
+        <div class="site-header">
+            <div class="container">
+                <a href="index.html" class="branding">
+                    <img src="images/logo.png" alt="" class="logo">
+                    <div class="logo-type">
+                        <h1 class="site-title">Weather News</h1>
+                        <small class="site-description">Stay updated with live feeds</small>
+                    </div>
+                </a>
+
+                <div class="main-navigation">
+                    <button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
+                    <ul class="menu">
+                        <li class="menu-item"><a href="index.html">Home</a></li>
+                        <li class="menu-item current-menu-item"><a href="news.html">News</a></li>
+                        <li class="menu-item"><a href="live-camera.html">Live camera</a></li>
+                        <li class="menu-item"><a href="photos.html">Photos</a></li>
+                        <li class="menu-item"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="mobile-navigation"></div>
+            </div>
+        </div>
+        <main class="main-content">
+            <div class="container">
+                <div class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    <span>Global News Feed</span>
+                </div>
+
+                <div class="fullwidth-block">
+                    <div class="row">
+                        <div class="content col-md-8">
+                            <div id="news-container">
+                                <div style="text-align: center; padding: 50px;">
+                                    <p style="color: #bfc2c8;">Connecting to live news server...</p>
+                                    <div class="spinner"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="sidebar col-md-3 col-md-offset-1">
+                            <div class="widget">
+                                <h3 class="widget-title">Latest Updates</h3>
+                                <ul class="arrow-list" id="sidebar-news">
+                                    <li><a href="#">Loading trends...</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="widget">
+                                <h3 class="widget-title">Weather Alerts</h3>
+                                <div class="alert-box"
+                                    style="background: rgba(0, 154, 216, 0.1); padding: 15px; border-radius: 8px;">
+                                    <p style="font-size: 14px; margin: 0; color: #fff;"><strong>Heads up!</strong> No
+                                        severe weather warnings for your current location today.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="site-footer">
+            <div class="container">
+                <p class="colophon">Copyright 2024 Weather Hub. All rights reserved</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="JS/jquery-1.11.1.min.js"></script>
+    <script src="JS/plugins.js"></script>
+    <script src="JS/app.js"></script>
+    <script src="js/newsData.js"></script>
+    <script src="JS/main.js"></script>
+</body>
+
+</html>
