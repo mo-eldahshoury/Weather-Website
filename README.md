@@ -19,6 +19,7 @@ https://mo-eldahshoury.github.io/Weather-Website/
 - **Error Handling:** Robust debugging to ensure a 100% clean browser console.
 
 ## 📁 Project Structure 
+
 ```text
 ├── CSS/
 │   ├── style.css (Refactored & Structured)
