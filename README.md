@@ -12,7 +12,8 @@ https://mo-eldahshoury.github.io/Weather-Website/
 * **Styling:** Custom CSS Grid & Flexbox, FontAwesome Icons, Google Fonts
 * **Version Control:** Git & GitHub
 
-## ✨ Key Features 
+## ✨ Key Features
+
 - **Dynamic News Engine:** Renders live weather news from a centralized data repository.
 - **Real-time UI Logic:** "Latest Updates" sidebar with automated timestamping.
 - **Clean Code Architecture:** CSS refactored for maintainability (2400+ lines optimized).
