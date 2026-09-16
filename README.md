@@ -21,6 +21,7 @@ https://mo-eldahshoury.github.io/Weather-Website/
 - **Responsive Layout:** Fully compatible with Mobile, Tablet, and Desktop.
 - **Error Handling:** Robust debugging to ensure a 100% clean browser console.
 
+
 ## 📁 Project Structure
 
 ```text
