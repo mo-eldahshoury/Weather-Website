@@ -3,7 +3,6 @@
 
 A modern, high-performance Weather and News dashboard built with a focus on clean UI/UX and efficient DOM manipulation. This project demonstrates advanced frontend development skills, including state management with mock data and responsive design architectures.
 
-
 ## 🚀 Live Demo
 
 https://mo-eldahshoury.github.io/Weather-Website/
